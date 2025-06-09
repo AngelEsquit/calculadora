@@ -1,2 +1,2 @@
 # Calculadora
-Link de la calculadora: calicheoficial.lat/23221/Proyecto1/dist
+Link de la calculadora: https://calicheoficial.lat/23221/Proyecto1/dist

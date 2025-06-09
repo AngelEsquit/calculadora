@@ -1,0 +1,90 @@
+/* src/App.css */
+
+.calculadora {
+  background: #3b3f47;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  width: 320px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  scale: 1.03;
+}
+
+.display {
+  background: #1e2126;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 2.5rem;
+  text-align: right;
+  overflow-x: auto;
+  margin-bottom: 15px;
+  user-select: none;
+  min-height: 60px;
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,0.8);
+  color: white;
+}
+
+.teclado {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.boton {
+  background: #5a5f68;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.3rem;
+  padding: 18px 0;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+  transition: background 0.25s ease;
+  user-select: none;
+}
+
+.boton:hover {
+  background: #7a7f88;
+}
+
+.boton:active {
+  background: #4a4f57;
+  box-shadow: inset 0 3px 5px rgba(0,0,0,0.6);
+}
+
+.boton.operador {
+  background: #f57c00;
+  color: white;
+  font-weight: bold;
+}
+
+.boton.operador:hover {
+  background: #ff9800;
+}
+
+.boton.operador:active {
+  background: #bb6100;
+}
+
+.boton.clear {
+  background: #d32f2f;
+  font-weight: bold;
+}
+
+.boton.clear:hover {
+  background: #ef5350;
+}
+
+.boton.clear:active {
+  background: #a02727;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background: #121212;
+}
